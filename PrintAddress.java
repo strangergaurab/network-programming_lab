@@ -6,7 +6,7 @@ import java.net.InetAddress;
 public class PrintAddress {
     public static void main(String[] args) {
         try {
-            InetAddress address = InetAddress.getByName("www.tufohs.edu.np");
+            InetAddress address = InetAddress.getByName("https://fohss.tu.edu.np/");
             System.out.println(address.getHostAddress());
             if (address.getAddress().length == 4) {
                 System.out.println(address.getHostAddress() + "is ipv4");
